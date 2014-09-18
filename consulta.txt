@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <fieldset> Laboral 
+     
+     <p> Codigo </p>
+     <input type="text" size="20"  id="cod" name="Codigo"/>
+     
+     <p>Fecha de ingreso</p>
+     <input type="text" size="20" id="fech" name="fecha" />
+     
+     <p>Seguro Social</p>
+     <input type="text" size="20" id="segur" name="seguro"/>
+     
+     <p>Numero</p>
+     <input type="text" size="20" id="num" name="numero"/>
+     
+     </fieldset>
+     
+     <fieldset>Personal
+     <p> Nombre </p>
+     <input type="text" size="20"  id="nom" name="nomb"/>
+     
+     <p>Apellido Paterno</p>
+     <input type="text" size="20" id="paterno" name="apellido pa"/>
+     
+     <p>Apellido Materno</p>
+     <input type="text" size="20" id="maerno" name="apellido ma"/>
+     
+     <p>Foto</p>
+     <input type="file" accept="text/html" size="20" id="foto" name="fot"/>
+     
+     
+     <p>Sexo</p>
+     <input type="radio" id="r1" name="hombre" />
+     <label for="labelh">Hombre</label>
+     <input type="radio" id="r2" name="mujer"/>
+     <label for="label">Mujer</label>
+     
+     </fieldset>
+
+<fieldset>Nacimento
+
+<p>Fecha</p>
+<input type="text" size="20"  id="nacimiento" name="fecha na"/>
+
+<p>Pais</p>
+<select size="1">
+	<option value="1">Mexico</option>
+	<option value="2">canada</option>
+</select>
+
+</fieldset>
+
+
+
+<fieldset>
+Contacto
+
+<p>titulo</p>
+<input type="text" size="20" id="titl" name="titulo"/>
+
+<p>CURP</p>
+<input type="text" size="20" id="cur" name="curp"/>
+<p>RFC</p>
+<input type="text" size="20" id="rfc" name="RFC"/>
+<p>Telefono</p>
+<input type="text" size="20" id="telefo" name="tel"/>
+<p>Celular</p>
+<input type="text" size="20"  id="celu" name="cel"/>
+<p>Domicilio</p>
+<input type="text" size="20" id="domici" name="dom"/>
+<p>Colonia</p>
+<input type="text" size="20" id="colnia" name="col"/>
+<p>codigo postal</p>
+<input type="text" size="20" id="postal" name="codigo"/>
+<p>pais</p>
+<input type="text" size="20" id="pais" name="pai"/>
+<p>Radio</p>
+<input type="text" size="20" id="rad" name="radio"/>
+<p>Correo electronico</p>
+<input type="text" size="20" id="electronico" name="correo"/>
+<p>Observaciones</p>
+
+<textarea cols="20" rows="20" wrap="virtual" maxlength="50"></textarea>
+</fieldset>
+
+
+
+
+
+<input value="Agregar" type="submit" src="www.google.com" id="enviar" name="boton"/>
+<input value="Cancelar "type="reset" id="cancelar" name="button"/>
+<article><input type="submit" value="1" src="www.google.com" /></article>
+
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="D4NI3L" />
+
+	<title>Sin título 1</title>
+</head>
+
+<body>
+
+
+
+</body>
+</html>
